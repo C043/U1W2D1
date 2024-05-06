@@ -68,4 +68,8 @@ console.log("4 - la variabile x:", sottrazione)
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const name1 = "john"
+const name2 = "John"
+const differenza = name1 === name2 
+console.log("name1 = john name2 = John, sono uguali?", differenza)
+console.log("name1 = john name2 = John, se fossero entrambi minuscoli sarebbero uguali?", !differenza)
