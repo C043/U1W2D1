@@ -1,7 +1,7 @@
 /*
 REGOLE
 - Tutte le risposte devono essere scritte in JavaScript
-- Puoi usare Google / StackOverflow ma solo quanto ritieni di aver bisogno di qualcosa che non è stato spiegato a lezione
+- Puoi usare Google / StackOverflow ma solo quando ritieni di aver bisogno di qualcosa che non è stato spiegato a lezione
 - Puoi testare il tuo codice in un file separato, o de-commentando un esercizio alla volta
 - Per visualizzare l'output, lancia il file HTML a cui è collegato e apri la console dagli strumenti di sviluppo del browser. 
 - Utilizza dei console.log() per testare le tue variabili e/o i risultati delle espressioni che stai creando.
@@ -11,7 +11,16 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* I tre principali datatype in JavaScript sono: numeri, stringhe e boolean
+- I numeri possono essere interi o decimali
+- Le stringhe sono circondate da virgolette e dentro possono esserci lettere, spazi, alcuni simboli ma anche numeri
+- I boolean invece sono due, true o false, vero o falso, quindi se qualcosa è vera o falsa. (Inoltre se si prova a sommare un numero con un boolean true, si scoprirà che true vale 1) */
+
+let numero = 10
+let stringa = "Questa è una stringa"
+let boolean = true
+
+console.log("Questa è la somma della variabile numero e la variabile boolean:", numero + boolean)
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
