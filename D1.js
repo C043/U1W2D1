@@ -17,6 +17,7 @@ REGOLE
 - I boolean invece sono due, true o false, vero o falso, quindi se qualcosa è vera o falsa. (Inoltre se si prova a sommare un numero con un boolean true, si scoprirà che true vale 1) */
 
 const numero = 10
+/* const stringa non verrà usato */
 const stringa = "Questa è una stringa"
 const boolean = true
 
@@ -50,7 +51,8 @@ console.log("Questa è la variabile x:", x)
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+myName = "Fragnito"
+console.log("Il mio cognome è:" myName)
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
