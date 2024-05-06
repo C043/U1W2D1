@@ -16,9 +16,9 @@ REGOLE
 - Le stringhe sono circondate da virgolette e dentro possono esserci lettere, spazi, alcuni simboli ma anche numeri
 - I boolean invece sono due, true o false, vero o falso, quindi se qualcosa è vera o falsa. (Inoltre se si prova a sommare un numero con un boolean true, si scoprirà che true vale 1) */
 
-let numero = 10
-let stringa = "Questa è una stringa"
-let boolean = true
+const numero = 10
+const stringa = "Questa è una stringa"
+const boolean = true
 
 console.log("Questa è la somma della variabile numero e la variabile boolean:", numero + boolean)
 
@@ -26,8 +26,8 @@ console.log("Questa è la somma della variabile numero e la variabile boolean:",
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+const myName = "Mario"
+console.log("Il mio nome è:", myName)
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
