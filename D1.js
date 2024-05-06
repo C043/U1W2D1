@@ -88,5 +88,5 @@ const differenza = name1 === name2;
 console.log("name1 = john, name2 = John, sono uguali?", differenza);
 console.log(
   "name1 = john, name2 = John, se fossero entrambi minuscoli sarebbero uguali?",
-  !differenza
+  name1.toLowerCase() === name2.toLowerCase()
 );
