@@ -42,7 +42,8 @@ console.log("12 + 20 =", sommaAddendi)
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const x = 12
+console.log("Questa è la variabile x:", x)
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
