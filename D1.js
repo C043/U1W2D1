@@ -28,11 +28,15 @@ console.log("Questa è la somma della variabile numero e la variabile boolean:",
 
 const myName = "Mario"
 console.log("Il mio nome è:", myName)
+
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const primoAddendo = 12
+const secondoAddendo = 20
+const sommaAddendi = primoAddendo + secondoAddendo
+console.log("12 + 20 =", sommaAddendi)
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
